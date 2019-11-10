@@ -3,37 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>WebVisualizations Project</title>
-    <link rel="stylesheet" type="text/css" href="Resources/style.css">
+    <link rel="stylesheet" type="text/css" href="../Resources/style.css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <div class="jumbotron text-black" style="margin-bottom:0px; background-image: url(https://www.queenelizabethparkuganda.com/wp-content/uploads/2019/03/placeholder_thumb_1152x648.jpg); background-size: 100%;">
-        <h1>Global Weather Distribution</h1>
-        <p1>Let's explore weather trends around the world.</p1>
+<body class="background">
+    <div class="jumbotron text-black" style="margin-bottom:0px; background-image: url(https://pbs.twimg.com/media/DehzKfeXkAEbpuy.jpg); background-size: 100%;">
+        <h1>Cloudiness Plot</h1>
+        <p1>It's feeling a little cloudy.</p1>
     </div>
     <nav class= "navbar navbar-expand-md  stick-top navbar-custom">
         <a class="navbar-brand"><img src= "https://s.w-x.co/util/image/w/earth%20%281%29.jpg?v=at&w=485&h=273" width="100" height="50"></a>
-        <span class="navbar-text"><a href="#">Global Weather Distribution</a></span>
+        <span class="navbar-text"><a href="../index.html">Global Weather Distribution</a></span>
         
         <ul class="nav navbar-nav ml-auto">
             <li class= "nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Plots</a>
                 <div class="dropdown-menu dropdown-content">
-                    <a class="dropdown-item" href="links/Max_Temperature.html">Max Temperature</a>
-                    <a class="dropdown-item" href="links/Cloudiness.html">Cloudiness</a>
-                    <a class="dropdown-item" href="links/Humidity.html">Humiditiy</a>
-                    <a class="dropdown-item" href="links/Wind Speed.html">Wind Speed</a>
+                    <a class="dropdown-item" href="Max_Temperature.html">Max Temperature</a>
+                    <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="Humidity.html">Humiditiy</a>
+                    <a class="dropdown-item" href="Wind Speed.html">Wind Speed</a>
                 </div>
             </li>
             <li class= "nav-item">
-                <a class="nav-link" href="links/Comparison.html">Comparison</a>
+                <a class="nav-link" href="Comparison.html">Comparison</a>
             </li>   
             <li class= "nav-item">
-                <a class="nav-link" href="links/Data.html">Data</a>         
+                <a class="nav-link" href="Data.html">Data</a>         
             </li>
         </ul>
     </nav>
+    
+    <div class="row">
+        <div class="col">
+            <h2 class="top">Summary: Latitude v Cloudiness</h2>
+            <p class="description">Here we have a scatter plot measuring the level of cloudiness of cities around the world based on latitude. It can be seen that there seems to be an equal distribution of cloudiness and that there are either no clouds or a lot of clouds.</p>
+        </div>
+        <div class="col">
+            <img class="img" src="../Resources/assets/images/Fig3.png" alt="Cloudiness and Latitude">
+        </div>
+    </div>
+
+    <div>
+        <a class= "next" href="Max_Temperature.html">Previous Page</a>
+        <a class= "next" href="Humidity.html">Next Page</a>
+    </div>
