@@ -67,37 +67,13 @@
     border-width: 7px;
     border-color: black;
 }
-
-.tablestyle {
-   text-align: center;
-}
- 
  
 .img3 {
-    margin-right: 0px;
+    margin-right: 50px;
     border: double;
     border-style: solid;
-    width: 200px;
-    height: 150px;
-    background-size: contain;
-    border-width: 7px;
-    border-color: black;
-}
-
-.padding{
-    padding-right:0;
-    padding-left:0;
-}
-
-.img4 {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    margin-right: 20px;
-    margin-left: 80px;
-    border: double;
-    border-style: solid;
-    width: 400px;
-    height: 300px;
+    width: 150px;
+    height: 100px;
     background-size: contain;
     border-width: 7px;
     border-color: black;
@@ -107,6 +83,29 @@
     background-color: black;
     color: white;
     border-style: solid;
-    border-width: 0px;
+    border-width: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left:0px;
 }
-  
+
+.img6 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    float: right;
+    border: double;
+    border-style: solid;
+    width: 500px;
+    height: 400px;
+    background-size: contain;
+    border-width: 7px;
+    border-color: black;
+}
+
+.frontpage {
+    margin-left: 5px;
+}
+
+/* @media (min-width: 768px) { body {
+} */
